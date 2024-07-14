@@ -25,6 +25,5 @@ jobs:
     - name: Test service URLs
       run: |
           minikube service list
-          kubectl get service nodejs-app
           minikube service nodejs-app --url
 
